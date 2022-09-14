@@ -19,6 +19,7 @@ body{
 .header{
     flex-direction: row;
     width: 100%;
+    margin-bottom: 50px;
     display: inline-block;
 }
 
@@ -37,6 +38,10 @@ body{
     margin-top: 0px;
     font-family: Helvetica, sans-serif;
     color: darkgray;
+}
+
+.border{
+    background-image: url("assets/hr-img.png");
 }
 
 .media{
