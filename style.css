@@ -139,7 +139,7 @@ body p{
 .sub-sec{
     display: inline-block;
     width: 100%;
-    margin-bottom: 60px;
+    height: 215px;
     margin-top: 10px;
 }
 
@@ -149,6 +149,7 @@ body p{
     margin-top: 0px;
     font-size: x-large;
     line-height: 35px;
+    display: inline-block;
 
 
 }
@@ -158,25 +159,26 @@ body p{
     margin: 0px;
     margin-top: 20px;
     margin-left: 100px;
-    display: inline-flex;
+    margin-bottom: 10px;
+    display: inline-block;
     font-size: x-large;
 }
 
 .sub-sec img{
     margin-top: 15px;
+    display: inline-block;
     position: absolute;
 }
 
 
 .sub-sec h4{
+    float: right;
+    margin-top: 35px;
     text-align: center;
     background-color: rgb(192, 23, 23);
     color: white;
     width: 20%;
     height: 30px;
-    position: relative;
-    margin-left: 850px;
-    margin-top: -120px;
     padding-top: 25px;
     padding-bottom: 20px;
     font-family: Helvetica, sans-serif;
